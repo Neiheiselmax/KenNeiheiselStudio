@@ -1,0 +1,88 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+	}
+
+//Main Nav
+
+.nav{
+	float: left;
+	margin-top: 70px;
+	margin-left: 20px;
+	h1{
+		margin-left: 13px;
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+	li{
+		font-size: 14px;
+	}
+	a{
+		color:grey;
+	}
+	#private{
+		color: red;
+	}
+}
+
+#yourElement {
+  -vendor-animation-duration: 6s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+//Add Image
+
+form{
+	margin-top: 200px;
+}
+
+//Fading Slideshow \/
+
+.bx-wrapper{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+		border: 0!important;
+		margin: 0px!important;
+}
+
+.bx-viewport{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+		border: 0!important;
+}
+
+#bxslider{
+	margin: 0px;
+	padding: 0px;
+	img{
+		height: 770px;
+		width: 100%;
+	}
+}
+
+//Bio
+
+.bio{
+	img{
+		height: 350px;
+		width: 350px;
+	}
+}
+
+//Gallery
+.paintings{
+	margin-right: 5%;
+	margin-bottom: 5%;
+	img{
+		display: inline;
+		height: 250px;
+		width: 250px;
+	}
+}
+
+#title{
+	margin-bottom: 20px;
+}
