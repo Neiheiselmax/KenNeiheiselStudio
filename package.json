@@ -4,7 +4,8 @@
   "description": "Angular",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
