@@ -26,7 +26,7 @@
 	      views: {
 		      'content': {
 		        templateUrl: '../partials/gallery.html',
-            controller:"GetImagesController",
+            // controller:"GetImagesController",
             controllerAs:"vm",
           }
 		   }
