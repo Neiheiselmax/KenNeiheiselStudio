@@ -20,7 +20,8 @@
     "gulp-sass": "^2.3.2"
   },
   "dependencies": {
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "KenNeiheiselStudio": "Neiheiselmax/KenNeiheiselStudio"
 
   }
 }
