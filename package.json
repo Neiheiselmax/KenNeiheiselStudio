@@ -5,11 +5,11 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp",
-    "start": "node server.js"
+    "start": "node server.js",
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johncpatterson/TIY-6-4-To-Do-List-Angular.git"
+    "url": "git+https://github.com/Neiheiselmax/KenNeiheiselStudio"
   },
   "author": "Jake Boyles",
   "license": "ISC",
@@ -17,10 +17,9 @@
     "browser-sync": "^2.17.0",
     "gulp": "^3.9.1",
     "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
   },
   "dependencies": {
-    "run-sequence": "^1.2.2"
-
+    "run-sequence": "^1.2.2",
   }
 }
