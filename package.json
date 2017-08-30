@@ -20,7 +20,7 @@
     "gulp-sass": "^2.3.2"
   },
   "dependencies": {
+    "express": "^4.15.4",
     "run-sequence": "^1.2.2"
-
   }
 }
