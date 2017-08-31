@@ -17,6 +17,9 @@ body {
   .nav #private {
     color: red; }
 
+.rightSide {
+  width: 950px; }
+
 #yourElement {
   -vendor-animation-duration: 6s;
   -vendor-animation-delay: 2s;
@@ -45,9 +48,12 @@ form {
     height: 770px;
     width: 100%; }
 
-.bio img {
-  height: 350px;
-  width: 350px; }
+.bio {
+  text-align: justify;
+  text-justify: inter-word; }
+  .bio img {
+    height: 280px;
+    width: 220px; }
 
 .paintings {
   margin-right: 5%;

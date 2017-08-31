@@ -25,6 +25,10 @@ body{
 	}
 }
 
+.rightSide{
+	width: 950px;
+}
+
 #yourElement {
   -vendor-animation-duration: 6s;
   -vendor-animation-delay: 2s;
@@ -66,9 +70,11 @@ form{
 //Bio
 
 .bio{
+		text-align: justify;
+	 text-justify: inter-word;
 	img{
-		height: 350px;
-		width: 350px;
+		height: 280px;
+		width: 220px;
 	}
 }
 
