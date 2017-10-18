@@ -10,14 +10,20 @@
   	<link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class= "col-md-4">
+    <header class="col-md-4 mainNav">
       <div class="container">
         <div class="row">
 
           <ul class="nav animated fadeInDown">
             <li><h1>ken neiheisel</h1></li>
             <li><a ui-sref='home'>home</a></li>
-            <li><a ui-sref='gallery'>selected works</a></li>
+            <li class="accordion"><a ui-sref='gallery'>selected works</a></li>
+            <div class="panel">
+              <p>paintings</p>
+              <p>sculpture</p>
+              <p>paper</p>
+              <p>wood</p>
+            </div>
             <li><a ui-sref='bio'>dossier</a></li>
             <li><a ui-sref='news'>news</a></li>
             <li><a ui-sref='contact'>contact</a></li>
@@ -43,5 +49,6 @@
     <script src='js/controllers/TableControllers.js'></script>
     <script src='js/controllers/AddImageController.js'></script>
     <script src='js/controllers/GetImagesController.js'></script>
+    <script src='js/controllers/AccordionController.js'></script>
   </body>
 </html>
