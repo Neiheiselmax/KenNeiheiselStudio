@@ -2,10 +2,15 @@ body {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box; }
 
+.mainNav {
+  height: 100%;
+  display: block; }
+
 .nav {
   float: left;
   margin-top: 70px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  height: 100%; }
   .nav h1 {
     margin-left: 13px;
     font-size: 40px;
@@ -39,11 +44,14 @@ form {
   -moz-box-shadow: none;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 0 !important; }
+  border: 0 !important;
+  margin: 0 auto !important; }
 
 #bxslider {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  display: inline;
+  margin: 0 auto !important; }
   #bxslider img {
     height: 770px;
     width: 100%; }

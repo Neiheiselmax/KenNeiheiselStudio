@@ -10,7 +10,7 @@
               pager: false,
               mode: 'fade',
               auto: true,
-              speed: 2000,
+              speed: 3000,
               });
 
           })
