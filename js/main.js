@@ -71,6 +71,57 @@
           }
        }
       })
+      .state('hieroglyphics', {
+        url: '/hieroglyphics',
+        views: {
+          'content': {
+            templateUrl: '../partials/hieroglyphics.html',
+            controller:"AddImageController",
+            controllerAs:"vm",
+          }
+       }
+      })
+      .state('paintings', {
+        url: '/paintings',
+        views: {
+          'content': {
+            templateUrl: '../partials/paintings.html',
+            controller:"AddImageController",
+            controllerAs:"vm",
+          }
+       }
+      })
+      .state('sculpture', {
+        url: '/sculpture',
+        views: {
+          'content': {
+            templateUrl: '../partials/sculpture.html',
+            controller:"AddImageController",
+            controllerAs:"vm",
+          }
+       }
+      })
+      .state('paper', {
+        url: '/paper',
+        views: {
+          'content': {
+            templateUrl: '../partials/paper.html',
+            controller:"AddImageController",
+            controllerAs:"vm",
+          }
+       }
+      })
+      .state('wood', {
+        url: '/wood',
+        views: {
+          'content': {
+            templateUrl: '../partials/wood.html',
+            controller:"AddImageController",
+            controllerAs:"vm",
+          }
+       }
+      })
+
     });
 
 })();

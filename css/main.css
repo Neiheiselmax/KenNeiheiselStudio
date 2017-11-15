@@ -17,13 +17,18 @@ body {
     margin-bottom: 40px; }
   .nav li {
     font-size: 14px; }
+  .nav ul {
+    list-style: none;
+    padding: 0px; }
   .nav a {
     color: grey; }
   .nav #private {
     color: red; }
 
 .rightSide {
-  width: 950px; }
+  width: 65%;
+  padding: 0px;
+  height: 100%; }
 
 #yourElement {
   -vendor-animation-duration: 6s;
@@ -53,7 +58,7 @@ form {
   display: inline;
   margin: 0 auto !important; }
   #bxslider img {
-    height: 770px;
+    height: auto;
     width: 100%; }
 
 .bio {
@@ -85,7 +90,11 @@ div.panel {
   color: grey; }
 
 .panel {
-  border-style: none !important; }
+  border-style: none !important;
+  box-shadow: none !important; }
+
+#selected {
+  margin: 0 0 10px; }
 
 #myBtn {
   display: none;

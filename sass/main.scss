@@ -23,6 +23,10 @@ body{
 	li{
 		font-size: 14px;
 	}
+	ul{
+		list-style: none;
+		padding: 0px;
+	}
 	a{
 		color:grey;
 	}
@@ -32,7 +36,9 @@ body{
 }
 
 .rightSide{
-	width: 950px;
+	width: 65%;
+	padding: 0px;
+	height: 100%;
 }
 
 #yourElement {
@@ -71,7 +77,7 @@ form{
 	display: inline;
 	margin: 0 auto !important;
 	img{
-		height: 770px;
+		height: auto;
 		width: 100%;
 	}
 }
@@ -114,7 +120,12 @@ div.panel {
 }
 
 .panel{
-			border-style: none!important;
+			border-style: none !important;
+			box-shadow: none !important;
+}
+
+#selected{
+	    margin: 0 0 10px;
 }
 
 #myBtn {
