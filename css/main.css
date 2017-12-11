@@ -126,3 +126,12 @@ div.panel {
 #myBtn:hover {
   background-color: #555;
   /* Add a dark-grey background on hover */ }
+
+@media (max-width: 900px) {
+  .rightSide {
+    width: 100%;
+    margin-left: 10%; }
+  .nav {
+    position: relative; }
+  #bxslider {
+    display: none; } }
