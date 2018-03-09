@@ -1,6 +1,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box; }
+  body a:hover {
+    text-decoration: none; }
 
 .mainNav {
   height: 100%;
@@ -87,12 +89,17 @@ div.panel {
   display: none;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.6s ease-out;
-  color: grey; }
+  transition: all 0.6s ease-out;
+  color: grey;
+  margin-bottom: 0; }
 
 .panel {
   border-style: none !important;
   box-shadow: none !important; }
+
+.panel li:hover {
+  background-color: #f2f2f2;
+  text-decoration: none !important; }
 
 #selected {
   margin: 0 0 10px; }
