@@ -26,7 +26,6 @@
 	      views: {
 		      'content': {
 		        templateUrl: '../partials/gallery.html',
-            // controller:"GetImagesController",
             controllerAs:"vm",
           }
 		   }
@@ -36,7 +35,7 @@
 	      views: {
 		      'content': {
 		        templateUrl: '../partials/bio.html',
-            // controller:"MainController",
+            controller:"MainController",
             // controllerAs:"vm",
           }
        }
@@ -46,7 +45,7 @@
         views: {
           'content': {
             templateUrl: '../partials/news.html',
-            // controller:"MainController",
+            controller:"MainController",
             // controllerAs:"vm",
           }
        }
@@ -61,23 +60,12 @@
           }
        }
       })
-      .state('addImage', {
-        url: '/addImage',
-        views: {
-          'content': {
-            templateUrl: '../partials/addImage.html',
-            controller:"AddImageController",
-            controllerAs:"vm",
-          }
-       }
-      })
       .state('hieroglyphics', {
         url: '/hieroglyphics',
         views: {
           'content': {
             templateUrl: '../partials/hieroglyphics.html',
-            controller:"AddImageController",
-            controllerAs:"vm",
+            // controllerAs:"vm",
           }
        }
       })
@@ -86,7 +74,6 @@
         views: {
           'content': {
             templateUrl: '../partials/paintings.html',
-            controller:"AddImageController",
             controllerAs:"vm",
           }
        }
@@ -96,7 +83,6 @@
         views: {
           'content': {
             templateUrl: '../partials/sculpture.html',
-            controller:"AddImageController",
             controllerAs:"vm",
           }
        }
@@ -106,7 +92,6 @@
         views: {
           'content': {
             templateUrl: '../partials/paper.html',
-            controller:"AddImageController",
             controllerAs:"vm",
           }
        }
@@ -116,7 +101,6 @@
         views: {
           'content': {
             templateUrl: '../partials/wood.html',
-            controller:"AddImageController",
             controllerAs:"vm",
           }
        }
