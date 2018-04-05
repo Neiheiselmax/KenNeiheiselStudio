@@ -100,6 +100,7 @@ form{
 
 //Gallery
 .paintings{
+	cursor: pointer;
 	margin-right: 5%;
 	margin-bottom: 5%;
 	img{
@@ -219,7 +220,7 @@ div.panel {
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 35px;
+  font-size: 125px;
   font-weight: bold;
 }
 
@@ -244,7 +245,7 @@ div.panel {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: grey;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
