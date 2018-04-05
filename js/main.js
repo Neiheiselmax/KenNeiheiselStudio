@@ -14,8 +14,8 @@
 	    .state('home', {
 	      url: '/',
 	      views: {
-		      'content': {
-		        templateUrl: '../partials/home.html',
+	         'content': {
+            templateUrl: '../partials/home.html',
             controller:"MainController",
             controllerAs:"vm",
 		      }

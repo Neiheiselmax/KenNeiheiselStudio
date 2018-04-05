@@ -1,47 +1,77 @@
 <div class="row">
   <h3 id="title">recent work - hieroglyphics:</h3>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/10.jpg">
+    <img class="image" src= "/images/hieroglyphics/10.jpg" onclick="openModal();currentSlide(1)">
   </div>
   <div class="col-md-3 paintings">
-    <img id="1" data-toggle="modal" data-target="#myModal" class="image" src="/images/hieroglyphics/9.jpg">
+    <img class="image" src="/images/hieroglyphics/9.jpg" onclick="openModal();currentSlide(2)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/8.jpg">
+    <img class="image" src= "/images/hieroglyphics/8.jpg" onclick="openModal();currentSlide(3)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/7.jpg">
+    <img class="image" src= "/images/hieroglyphics/7.jpg" onclick="openModal();currentSlide(4)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/6.jpg">
+    <img class="image" src= "/images/hieroglyphics/6.jpg" onclick="openModal();currentSlide(5)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/5.jpg">
+    <img class="image" src= "/images/hieroglyphics/5.jpg" onclick="openModal();currentSlide(6)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/4.jpg">
+    <img class="image" src= "/images/hieroglyphics/4.jpg" onclick="openModal();currentSlide(7)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/3.jpg">
+    <img class="image" src= "/images/hieroglyphics/3.jpg" onclick="openModal();currentSlide(8)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/2.jpg">
+    <img class="image" src= "/images/hieroglyphics/2.jpg" onclick="openModal();currentSlide(9)">
   </div>
   <div class="col-md-3 paintings">
-    <img class="image" src= "/images/hieroglyphics/1.jpg">
+    <img class="image" src= "/images/hieroglyphics/1.jpg" onclick="openModal();currentSlide(10)">
+  </div>
   </div>
 
-  <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <img class="img-responsive" src=""/>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/10.jpg" style="width:100%">
     </div>
-  </div>
+    <div class="mySlides">
+      <img class="image" src="/images/hieroglyphics/9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="image" src= "/images/hieroglyphics/1.jpg" style="width:100%">
+    </div>
 
-</div>
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>

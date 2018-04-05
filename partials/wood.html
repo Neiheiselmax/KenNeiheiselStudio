@@ -1,28 +1,67 @@
 <div class="row">
 <h3 id="title">works on wood:</h3>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/wood/1.jpg">
+<img class="image" src= "/images/wood/1.jpg" onclick="openModal();currentSlide(1)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/wood/2.jpg">
+<img class="image" src= "/images/wood/2.jpg" onclick="openModal();currentSlide(2)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/wood/3.jpg">
+<img class="image" src= "/images/wood/3.jpg" onclick="openModal();currentSlide(3)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/wood/4.jpg">
+<img class="image" src= "/images/wood/4.jpg" onclick="openModal();currentSlide(4)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/wood/5.jpg">
+<img class="image" src= "/images/wood/5.jpg" onclick="openModal();currentSlide(5)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/painting/17.jpg">
+<img class="image" src= "/images/painting/17.jpg" onclick="openModal();currentSlide(6)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/painting/18.jpg">
+<img class="image" src= "/images/painting/18.jpg" onclick="openModal();currentSlide(7)">
 </div>
 <div class="col-md-3 paintings">
-<img class="image" src= "/images/painting/15.jpg">
+<img class="image" src= "/images/painting/15.jpg" onclick="openModal();currentSlide(8)">
 </div>
 
 </div>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+    <img class="image" src= "/images/wood/1.jpg" style="width:100%" >
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/wood/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/wood/3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/wood/4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/wood/5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/painting/17.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/painting/18.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+    <img class="image" src= "/images/painting/15.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
