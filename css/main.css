@@ -2,7 +2,8 @@ body {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box; }
   body a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: pointer; }
 
 .mainNav {
   height: 100%;
