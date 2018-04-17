@@ -107,6 +107,11 @@ body{
 	}
 }
 
+.image1:hover{
+	transition: 1s ease;
+	opacity: 0.5;
+}
+
 #title{
 	margin-bottom: 20px;
 }
