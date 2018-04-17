@@ -28,6 +28,7 @@ body{
 	}
 	li{
 		font-size: 14px;
+		transition: width 2s;
 	}
 	ul{
 		list-style: none;
@@ -41,6 +42,7 @@ body{
 	}
 }
 
+
 .rightSide{
 	width: 65%;
 	padding: 0px;
@@ -51,12 +53,6 @@ body{
   -vendor-animation-duration: 6s;
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
-}
-
-//Add Image
-
-form{
-	margin-top: 200px;
 }
 
 //Fading Slideshow \/
@@ -91,8 +87,8 @@ form{
 //Bio
 
 .bio{
-		text-align: justify;
-	 text-justify: inter-word;
+	text-align: justify;
+	text-justify: inter-word;
 	img{
 		height: 280px;
 		width: 220px;

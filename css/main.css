@@ -20,7 +20,8 @@ body {
     font-size: 40px;
     margin-bottom: 40px; }
   .nav li {
-    font-size: 14px; }
+    font-size: 14px;
+    transition: width 2s; }
   .nav ul {
     list-style: none;
     padding: 0px; }
@@ -38,9 +39,6 @@ body {
   -vendor-animation-duration: 6s;
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite; }
-
-form {
-  margin-top: 200px; }
 
 .bx-wrapper {
   -moz-box-shadow: none;

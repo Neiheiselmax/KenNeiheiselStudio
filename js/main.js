@@ -12,7 +12,7 @@
 
     	$stateProvider
 	    .state('home', {
-	      url: '/',
+	      url: '',
 	      views: {
 	         'content': {
             templateUrl: '../partials/home.html',
