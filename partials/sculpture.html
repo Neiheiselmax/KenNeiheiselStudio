@@ -2,10 +2,13 @@
 <div class="row">
 <h3 id="title">sculpture:</h3>
 <div class="col-md-3 paintings">
-<img class="image1" src= "/images/sculpture/1.jpg" onclick="openModal();currentSlide(1)" alt="This is 1">
+<img class="image1" src= "/images/sculpture/1.jpg" onclick="openModal();currentSlide(1)">
 </div>
 <div class="col-md-3 paintings">
 <img class="image1" src= "/images/sculpture/2.jpg" onclick="openModal();currentSlide(2)">
+</div>
+<div class="col-md-3 paintings">
+<img class="fullImage" src= "/images/sculpture/3.jpeg" onclick="openModal();currentSlide(3)">
 </div>
 <!-- <div class="col-md-3 paintings" ng-repeat="images in vm.image | filter:{category: 'Charcoal'}">
 <h1><img class="image" src= "{{images.url}}"> </h1>
@@ -15,15 +18,14 @@
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
-
     <div class="mySlides">
-
-      <img src="/images/sculpture/1.jpg" style="width:100%">
+      <img src="/images/sculpture/1.jpg" style="width:100%" alt="Movement. Always changing. Openness, never closed. This openness is a source of limitless possibilities. Impermanence ~ 66.5 x 11 x 11  Wood, Metal and Steel ~ 5,000.00">
     </div>
-
     <div class="mySlides">
-
-      <img src="/images/sculpture/2.jpg" style="width:100%">
+      <img class="image" src="/images/sculpture/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img src="/images/sculpture/3.jpeg" style="width:100%">
     </div>
 
     <!-- Next/previous controls -->

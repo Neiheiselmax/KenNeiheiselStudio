@@ -100,11 +100,12 @@ body{
 	cursor: pointer;
 	margin-right: 5%;
 	margin-bottom: 5%;
-	img{
-		display: inline;
-		height: 250px;
-		width: 250px;
-	}
+}
+
+.image1{
+	display: inline;
+	height: 250px;
+	width: 250px;
 }
 
 .image1:hover{
@@ -247,10 +248,10 @@ div.panel {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-	margin-left: -30px;
+	margin-left: -50px;
   color: grey;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -259,7 +260,7 @@ div.panel {
 
 /* Position the "next button" to the right */
 .next {
-  right: -30px;
+  right: -50px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -302,3 +303,18 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
+.fullImage{
+	width: 130%;
+	height: 80%;
+}
+
+.imgbox {
+   display: grid;
+   height: 100%;
+  }
+  .center-fit {
+   max-width: 100%;
+   max-height: 100vh;
+   margin: auto;
+  }
