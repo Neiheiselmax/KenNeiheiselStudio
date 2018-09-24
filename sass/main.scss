@@ -78,10 +78,6 @@ body{
 	padding: 0px;
 	display: inline;
 	margin: 0 auto !important;
-	img{
-		height: 100vh;
-		width: 100%;
-	}
 }
 
 //Bio
@@ -162,7 +158,7 @@ div.panel {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-@media (max-width: 900px) {
+@media (max-width: 995px) {
 	.rightSide{
 		width: 100%;
 		margin-left: 10%;
