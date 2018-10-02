@@ -75,7 +75,8 @@ body {
 .image1 {
   display: inline;
   height: 250px;
-  width: 250px; }
+  width: 250px;
+  object-fit: cover; }
 
 .image1:hover {
   transition: 1s ease;
@@ -241,7 +242,8 @@ div.panel {
   text-align: center;
   background-color: black;
   padding: 2px 16px;
-  color: white; }
+  color: white;
+  height: 100px; }
 
 img.demo {
   opacity: 0.6; }
@@ -256,7 +258,7 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-.fullImage {
+.image {
   width: 130%;
   height: 80%; }
 
