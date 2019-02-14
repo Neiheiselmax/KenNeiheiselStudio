@@ -52,13 +52,24 @@ body {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   border: 0 !important;
-  margin: 0 auto !important; }
+  margin: 0 auto !important;
+  max-height: 742px; }
 
 #bxslider {
   margin: 0px;
   padding: 0px;
   display: inline;
   margin: 0 auto !important; }
+  #bxslider img {
+    width: 100%; }
+  #bxslider #one {
+    margin-top: -66px; }
+  #bxslider #two {
+    transform: scale(1.8); }
+  #bxslider #four {
+    transform: scale(2.2); }
+  #bxslider #six {
+    margin-top: -135px; }
 
 .bio {
   text-align: justify;
@@ -66,8 +77,8 @@ body {
   .bio h3 {
     font-size: 20px; }
   .bio img {
-    height: 280px;
-    width: 220px; }
+    height: 10em;
+    width: 14em; }
 
 .paintings {
   cursor: pointer;

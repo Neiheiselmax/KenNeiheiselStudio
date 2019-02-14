@@ -71,6 +71,7 @@ body{
     box-shadow: none!important;
 		border: 0!important;
 		margin: 0 auto !important;
+		max-height: 742px;
 }
 
 #bxslider{
@@ -78,7 +79,26 @@ body{
 	padding: 0px;
 	display: inline;
 	margin: 0 auto !important;
+
+	img{
+		width: 100%;
+	}
+
+	#one{
+		margin-top: -66px;
+	}
+	#two{
+		transform: scale(1.8);
+	}
+
+	#four{
+		transform: scale(2.2);
+	}
+	#six{
+		margin-top: -135px;
+	}
 }
+
 
 //Bio
 
@@ -89,8 +109,8 @@ body{
 		font-size: 20px;
 	}
 	img{
-		height: 280px;
-		width: 220px;
+		height: 10em;
+		width: 14em;
 	}
 }
 
